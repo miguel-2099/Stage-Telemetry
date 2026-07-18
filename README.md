@@ -7,7 +7,7 @@ It gathers data from user input (pace note and speed), then the data is translat
 
 <br>
 
-<h1>Sources:</h1>
+## Sources
 
 * [Toyota Gazoo Racing](https://toyotagazooracing.com/wrc/cars/2022/)
 * [Hyundai N Motorsport](https://www.hyundai-n.com/en/brand/motorsports/motorsports-wrc) 
@@ -16,7 +16,7 @@ It gathers data from user input (pace note and speed), then the data is translat
 
 <br>
 
-# Development Environment
+## Development Environment
 
 * C#
 * Visual Studio Code
