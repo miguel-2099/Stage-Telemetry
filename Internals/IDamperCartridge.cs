@@ -1,3 +1,5 @@
+// Defines the contract for damper internals (springs, bump stops)
+
 namespace WrcSuspensionCalculator.Internals
 {
     public interface IDamperCartridge
