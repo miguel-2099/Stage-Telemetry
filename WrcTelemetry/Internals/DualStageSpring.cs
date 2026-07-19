@@ -1,6 +1,6 @@
 // Implementation of a dual-rate setup (tender/helper spring + main spring)
 
-namespace WrcSuspensionCalculator.Internals
+namespace WrcTelemetry.Internals
 {
     public class DualStageSpring : IDamperCartridge
     {
@@ -18,7 +18,6 @@ namespace WrcSuspensionCalculator.Internals
 
         public double CalculateDeflectionMm(double forceNewtons)
         {
-            // Combined rate while helper spring is active: 1/k_eff = 1/k_helper + 1/k_main
             double combinedRate = (HelperSpringRateNm * MainSpringRateNm) / (HelperSpringRateNm + MainSpringRateNm);
             double initialDeflectionMm = (forceNewtons / combinedRate) * 1000.0;
 
@@ -27,7 +26,6 @@ namespace WrcSuspensionCalculator.Internals
                 return initialDeflectionMm;
             }
 
-            // Helper spring bound completely; remaining force acts solely on main spring
             double forceToBindHelper = (HelperTravelLimitMm / 1000.0) * combinedRate;
             double remainingForce = forceNewtons - forceToBindHelper;
             double mainDeflectionMeters = remainingForce / MainSpringRateNm;

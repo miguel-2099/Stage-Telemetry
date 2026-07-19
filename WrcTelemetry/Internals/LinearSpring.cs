@@ -1,11 +1,11 @@
 // Implementation of a standard single-rate spring (F=k*x)
 
-namespace WrcSuspensionCalculator.Internals
+namespace WrcTelemetry.Internals
 {
     public class LinearSpring : IDamperCartridge
     {
         public string Name => "Linear Rate Spring";
-        public double SpringRateNm { get; } // Newtons per meter
+        public double SpringRateNm { get; }
 
         public LinearSpring(double springRateNm = 45000.0)
         {
@@ -14,9 +14,8 @@ namespace WrcSuspensionCalculator.Internals
 
         public double CalculateDeflectionMm(double forceNewtons)
         {
-            // x (meters) = F / k
             double deflectionMeters = forceNewtons / SpringRateNm;
-            return deflectionMeters * 1000.0; // convert to mm
+            return deflectionMeters * 1000.0;
         }
     }
 }

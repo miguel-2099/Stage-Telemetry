@@ -1,4 +1,6 @@
-namespace WrcSuspensionCalculator.VehicleComponents
+// Holds the information of the car we're working with
+
+namespace WrcTelemetry.VehicleComponents
 {
     public class WrcCar
     {

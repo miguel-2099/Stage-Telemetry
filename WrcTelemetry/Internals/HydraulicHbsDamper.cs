@@ -2,7 +2,7 @@
 
 using System;
 
-namespace WrcSuspensionCalculator.Internals
+namespace WrcTelemetry.Internals
 {
     public class HydraulicHbsDamper : IDamperCartridge
     {
@@ -25,7 +25,6 @@ namespace WrcSuspensionCalculator.Internals
                 return linearDeflectionMm;
             }
 
-            // Exponential resistance above threshold to simulate hydraulic fluid compression
             double excessForce = forceNewtons - ((HbsThresholdMm / 1000.0) * MainSpringRateNm);
             double additionalTravelMm = Math.Log1p(excessForce / 1000.0) * 10.0;
 
