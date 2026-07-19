@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WrcTelemetry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee024e0d4a265f98bdac77a0d995504765238eac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab1f3d4c53cf590bfe35874d7ef5c5c77c741f06")]
 [assembly: System.Reflection.AssemblyProductAttribute("WrcTelemetry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WrcTelemetry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
