@@ -7,7 +7,7 @@ namespace WrcTelemetry
 {
     public static class PhysicsEngine
     {
-        private const double Gravity = 9.81; // m/s^2
+        private const double Gravity = 9.81;
 
         public static double KmHourToMetersSecond(double kmh) => kmh / 3.6;
 
@@ -24,7 +24,7 @@ namespace WrcTelemetry
 
         public static double CalculateLateralWeightTransferNewtons(WrcCar car, double centripetalAccel)
         {
-            // Weight Transfer (N) = (Mass * Centripetal Acceleration * CG Height) / Track Width
+            // Standard lateral weight transfer equation: ΔW = (Mass * A_c * h) / TrackWidth
             return (car.MassKg * centripetalAccel * car.CenterOfGravityHeightMeters) / car.TrackWidthMeters;
         }
     }

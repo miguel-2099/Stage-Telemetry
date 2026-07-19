@@ -19,9 +19,9 @@ namespace WrcTelemetry.Geometries
 
         public double CalculateWheelTravelMm(double lateralWeightTransferNewtons)
         {
-            double verticalForcePerWheel = lateralWeightTransferNewtons / 2.0;
+            // Applies total calculated load shift onto the outside suspension track
             double angleRadians = InclinationAngleDegrees * (Math.PI / 180.0);
-            double axialStrutForce = verticalForcePerWheel * Math.Cos(angleRadians);
+            double axialStrutForce = lateralWeightTransferNewtons * Math.Cos(angleRadians);
 
             double damperStrokeMm = _damper.CalculateDeflectionMm(axialStrutForce);
             return damperStrokeMm / Math.Cos(angleRadians);

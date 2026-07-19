@@ -18,8 +18,7 @@ namespace WrcTelemetry.Geometries
 
         public double CalculateWheelTravelMm(double lateralWeightTransferNewtons)
         {
-            double verticalForcePerWheel = lateralWeightTransferNewtons / 2.0;
-            double shockForce = verticalForcePerWheel / BaseMotionRatio;
+            double shockForce = lateralWeightTransferNewtons / BaseMotionRatio;
             double baseTravelMm = _damper.CalculateDeflectionMm(shockForce);
 
             double dynamicLeverageModifier = 0.95;

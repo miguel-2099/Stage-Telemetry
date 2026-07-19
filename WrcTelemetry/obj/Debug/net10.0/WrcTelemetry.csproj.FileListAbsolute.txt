@@ -1,0 +1,15 @@
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\bin\Debug\net10.0\WrcTelemetry.exe
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\bin\Debug\net10.0\WrcTelemetry.deps.json
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\bin\Debug\net10.0\WrcTelemetry.runtimeconfig.json
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\bin\Debug\net10.0\WrcTelemetry.dll
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\bin\Debug\net10.0\WrcTelemetry.pdb
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.AssemblyInfoInputs.cache
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.AssemblyInfo.cs
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.sourcelink.json
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.dll
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\refint\WrcTelemetry.dll
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.pdb
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\WrcTelemetry.genruntimeconfig.cache
+C:\Users\Miguel\Stage Telemetry\WrcTelemetry\obj\Debug\net10.0\ref\WrcTelemetry.dll
